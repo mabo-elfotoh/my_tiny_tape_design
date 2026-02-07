@@ -4,7 +4,7 @@ project:
   title:        "^My first design"      # Project title
   author:       "Mahmoud Sanad"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "This my first and simplest design"      # One line description of what your project does
+  description:  "This my first and simplest design. This design just ANDing the first two inputs, ORing the next two inputs, the fifth input is passed directly to the third, forth and fifth. Afterwards, just direct mapping"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -26,8 +26,8 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
+  uo[0]: "output and"
+  uo[1]: "output or"
   uo[2]: ""
   uo[3]: ""
   uo[4]: ""
