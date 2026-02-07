@@ -9,7 +9,10 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+AND is connected to input 0 and 1 and gives output to 0
+OR is connected to input 2 and 3 and gives output to 1
+input 5 is connected to output 2, 3, and 4
+finally direct 6 and 7 inputs to 6 and 7 outputs directly. 
 
 ## How to test
 
